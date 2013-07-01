@@ -1,0 +1,55 @@
+Changelog for boilerX integration into MODx Revolution.
+
+	boilerX 0.9.4
+	====================================
+	- updated to HTML5 Boilerplate 4.0.2 (h5bp-html5-boilerplate-0a340fb)
+
+	boilerX 0.9.1
+	====================================
+ 	- corrected transport zip file name to fix broken check for updates
+
+	boilerX 0.8.8
+	====================================
+	 - updated to  HTML5 Boilerplate 4.1 (h5bp-html5-boilerplate-3bc5ed9 )
+	 - updated modernizr and jQuery versions
+
+	boilerX 0.8.7
+	====================================
+	 - updated to  HTML5 Boilerplate 4.0 markup (h5bp-html5-boilerplate-2279296)
+	 - updated modernizr version (in system settings)
+	 - depreciated pcdn chunk (potential content delivery network)
+
+	boilerX 0.7.9
+	====================================
+	 - updated to newest HTML5 Boilerplate markup (h5bp-html5-boilerplate-1ac32b7)
+	 - updated modernizr version (in system settings)
+
+	boilerX 0.7.7
+	====================================
+	 - removed Google+ publisher tag
+	 - bundled shareX plugin for controlling how your pages look on social networks like Facebook
+	 - re added Google+ publisher tag as part of shareX
+
+	boilerX 0.7.5
+	====================================
+	 - added support for Google+ publisher tag via a Google+ Publisher ID
+
+	boilerX 0.7.3
+	====================================
+	 - removed duplicate boilerplate comment
+
+	boilerX 0.7.1
+	====================================
+	 - removed dependency on If addon by implementing native modX conditionals
+	 - added bx-head-append chunk which outputs a base href tag before the closing </head> tag
+
+	boilerX 0.7
+	====================================
+	 - exactly replicates html5 boilerplate markup
+	 - show/hide boilerplate comments
+	 - set properties via System Settings (description, author, viewport, css path, modernizr js path, analytics id)
+	 - set jQuery version
+	 - toggle whether or not to point to CDN
+	 - auto disables analytics tracking if not set
+	 - set which version of IE to display chrome frame via system settings
+	
