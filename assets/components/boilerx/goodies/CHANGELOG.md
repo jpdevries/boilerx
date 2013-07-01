@@ -1,6 +1,41 @@
 ### HEAD
 
-### 4.0.0 (28 August, 2012)
+### 4.2.0 (April 8, 2013)
+
+* Remove Google Analytics protocol check ([#1319](https://github.com/h5bp/html5-boilerplate/pull/1319)).
+* Update to Normalize.css 1.1.1.
+* Update Apache configurations to include the latest changes in the canonical
+  [`.htaccess`](https://github.com/h5bp/server-configs/blob/master/apache/.htaccess)
+  file.
+* Use a protocol relative URL for the 404 template script.
+* Update to jQuery 1.9.1.
+
+### 4.1.0 (January 21, 2013)
+
+* Update to Normalize.css 1.1.0.
+* Update to jQuery 1.9.0.
+
+### 4.0.3 (January 12, 2013)
+
+* Use 32x32 favicon.ico ([#1286](https://github.com/h5bp/html5-boilerplate/pull/1286)).
+* Remove named function expression in plugins.js ([#1280](https://github.com/h5bp/html5-boilerplate/pull/1280)).
+* Adjust CSS image-replacement code ([#1239](https://github.com/h5bp/html5-boilerplate/issues/1239)).
+* Update HiDPI example media query ([#1127](https://github.com/h5bp/html5-boilerplate/issues/1127)).
+
+### 4.0.2 (December 9, 2012)
+
+* Update placeholder icons.
+* Update to Normalize.css 1.0.2.
+* Update to jQuery 1.8.3.
+
+### 4.0.1 (October 20, 2012)
+
+* Further improvements to `console` method stubbing ([#1206](https://github.com/h5bp/html5-boilerplate/issues/1206), [#1229](https://github.com/h5bp/html5-boilerplate/pull/1229)).
+* Update to jQuery 1.8.2.
+* Update to Modernizr 2.6.2.
+* Minor additions to the documentation.
+
+### 4.0.0 (August 28, 2012)
 
 * Improve the Apache compression configuration ([#1012](https://github.com/h5bp/html5-boilerplate/issues/1012), [#1173](https://github.com/h5bp/html5-boilerplate/issues/1173)).
 * Add a HiDPI example media query ([#1127](https://github.com/h5bp/html5-boilerplate/issues/1127)).
