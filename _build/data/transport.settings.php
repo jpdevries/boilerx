@@ -5,10 +5,10 @@ $settingSource = array(
         'area' => 'analytics',
         'value' => 'UAXXXXXXXX1',
     ),
-    'cdn_url' => array(
+    /*'cdn_url' => array( // depreciated in 1.0.0 
         'area' => 'assets',
         'value' => 'http://s3.amazonaws.com/mycdn/',
-    ),
+    ),*/
     'css_normalize_path' => array(
         'area' => 'assets',
         'value' => '[[++assets_url]]components/boilerx/css/normalize.css',
@@ -45,10 +45,10 @@ $settingSource = array(
         'area' => 'options',
         'value' => '7'
     ),
-    'do_cdn' => array(
+    /*'do_cdn' => array( // depreciated in 1.0.0 
         'area' => 'options',
         'value' => false,
-    ),
+    ),*/
     'show_comments' => array(
         'area' => 'options',
         'value' => false,
