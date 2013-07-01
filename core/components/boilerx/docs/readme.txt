@@ -1,8 +1,8 @@
 --------------------
 	Extra: boilerX
 	--------------------
-	Version: 0.9.4
-	Created: September 21, 2012
+	Version: 1.0.0
+	Created: July 1, 2013
 	Author: JP DeVries <mail@devries.jp>
 	License: GNU GPLv2 (or later at your option)
 
@@ -10,7 +10,7 @@
 
 
 	Please see the documentation at:
-	http://rtfm.modx.com/display/ADDON/boilerX/
+	https://github.com/jpdevries/boilerx/wiki/Using-boilerX
 
 	Thanks for using boilerX!
 	JP DeVries	

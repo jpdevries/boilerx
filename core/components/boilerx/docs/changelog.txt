@@ -1,5 +1,15 @@
 Changelog for boilerX integration into MODx Revolution.
 
+	boilerX 1.0.0
+	====================================
+	- updated to HTML5 Boilerplate 4.2.0
+	- removed socialX subpackage
+	- depreciated CDN settings
+
+	boilerX 0.9.6
+	====================================
+	- new build script
+
 	boilerX 0.9.4
 	====================================
 	- updated to HTML5 Boilerplate 4.0.2 (h5bp-html5-boilerplate-0a340fb)
