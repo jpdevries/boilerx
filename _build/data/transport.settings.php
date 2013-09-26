@@ -19,7 +19,7 @@ $settingSource = array(
     ),
     'jquery_version' => array(
         'area' => 'assets',
-        'value' => '1.9.1'
+        'value' => '1.10.2'
     ),
     'modernizr_js_path' => array(
         'area' => 'assets',
