@@ -1,5 +1,9 @@
 Changelog for boilerX integration into MODx Revolution.
 
+	boilerX 1.1.0
+	====================================
+	- updated to HTML5 Boilerplate 4.3.0
+
 	boilerX 1.0.0
 	====================================
 	- updated to HTML5 Boilerplate 4.2.0

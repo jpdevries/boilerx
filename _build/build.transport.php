@@ -13,7 +13,7 @@ set_time_limit(0);
 define('PKG_NAME','boilerx');
 define('PKG_NAME_LOWER','boilerx'); 
 define('PKG_NAME_STUPID','boilerx2'); 
-define('PKG_VERSION','1.0.0');
+define('PKG_VERSION','1.1.0');
 define('PKG_RELEASE','pl');
 
 /* define build paths */

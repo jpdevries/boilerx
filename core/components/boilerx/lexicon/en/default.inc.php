@@ -59,4 +59,4 @@ $_lang['setting_bx.do_cdn'] = 'DO CDN';
 $_lang['setting_bx.do_cdn_desc'] = 'Whether or not to point assets to a Content Delivery Network, see bx.cdn_url';
 
 $_lang['setting_bx.show_comments'] = 'Show Comments';
-$_lang['setting_bx.show_comments_desc'] = 'Whether or not to show comments related to boilerX';
+$_lang['setting_bx.show_comments_desc'] = 'Whether or not to show tips using comments in markup';
