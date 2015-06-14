@@ -14,7 +14,7 @@ define('PKG_NAME','boilerx');
 define('PKG_NAME_LOWER','boilerx'); 
 define('PKG_NAME_STUPID','boilerx2'); 
 define('PKG_VERSION','2.0.0');
-define('PKG_RELEASE','dev');
+define('PKG_RELEASE','pl');
 
 /* define build paths */
 $root = dirname(dirname(__FILE__)).'/';
