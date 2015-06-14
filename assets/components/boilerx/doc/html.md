@@ -1,4 +1,4 @@
-[HTML5 Boilerplate homepage](http://html5boilerplate.com) | [Documentation
+[HTML5 Boilerplate homepage](https://html5boilerplate.com) | [Documentation
 table of contents](TOC.md)
 
 # The HTML
@@ -18,7 +18,7 @@ By default, HTML5 Boilerplate provides two `html` pages:
 The `no-js` class is provided in order to allow you to more easily and
 explicitly add custom styles based on whether JavaScript is disabled
 (`.no-js`) or enabled (`.js`). Using this technique also helps [avoid the
-FOUC](http://paulirish.com/2009/avoiding-the-fouc-v3/).
+FOUC](https://www.paulirish.com/2009/avoiding-the-fouc-v3/).
 
 
 ## Language attribute
@@ -47,26 +47,26 @@ important because:
      Internet Explorer
 
 2) the meta tag for compatibility mode
-   (`<meta http-equiv="X-UA-Compatible" content="IE=edge">`):
+   (`<meta http-equiv="x-ua-compatible" content="ie=edge">`):
 
    * [needs to be included before all other tags except for the `<title>` and
      the other `<meta>`
-     tags](http://msdn.microsoft.com/en-us/library/cc288325.aspx)
+     tags](https://msdn.microsoft.com/en-us/library/cc288325.aspx)
 
 
-### `X-UA-Compatible`
+### `x-ua-compatible`
 
 Internet Explorer 8/9/10 support [document compatibility
-modes](http://msdn.microsoft.com/en-us/library/cc288325.aspx) that affect the
+modes](https://msdn.microsoft.com/en-us/library/cc288325.aspx) that affect the
 way webpages are interpreted and displayed. Because of this, even if your site's
 visitor is using, let's say, Internet Explorer 9, it's possible that IE will not
 use the latest rendering engine, and instead, decide to render your page using
 the Internet Explorer 5.5 rendering engine.
 
-Specifying the `X-UA-Compatible` meta tag:
+Specifying the `x-ua-compatible` meta tag:
 
 ```html
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
 ```
 
 or sending the page with the following HTTP response header
@@ -92,7 +92,7 @@ the HTTP header. If you are using a different server, check out our [other
 server config](https://github.com/h5bp/server-configs).
 
 Starting with Internet Explorer 11, [document modes are
-deprecated](http://msdn.microsoft.com/en-us/library/ie/bg182625.aspx#docmode).
+deprecated](https://msdn.microsoft.com/en-us/library/ie/bg182625.aspx#docmode).
 If your business still relies on older web apps and services that were
 designed for older versions of Internet Explorer, you might want to consider
 enabling [Enterprise Mode](http://blogs.msdn.com/b/ie/archive/2014/04/02/stay-up-to-date-with-enterprise-mode-for-internet-explorer-11.aspx) throughout your company.
@@ -141,13 +141,13 @@ file synchronously loaded at the top of the document.
 
 If you need to include [polyfills](https://remysharp.com/2010/10/08/what-is-a-polyfill)
 in your project, you must make sure those load before any other JavaScript. If you're
-using some polyfill CDN service, like [cdn.polyfill.io](http://cdn.polyfill.io/),
+using some polyfill CDN service, like [cdn.polyfill.io](https://cdn.polyfill.io/),
 just put it before the other scripts in the bottom of the page:
 
 ```html
-    <script src="//cdn.polyfill.io/v1/polyfill.min.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
+    <script src="https://cdn.polyfill.io/v1/polyfill.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
 </body>
@@ -192,7 +192,7 @@ odds of having a copy of the library in your user's browser cache.
 
 While the Google CDN is a strong default solution your site or application may
 require a different configuration. Testing your site with services like
-[WebPageTest](http://www.webpagetest.org/) and browser tools like
+[WebPageTest](https://www.webpagetest.org/) and browser tools like
 [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) or
 [YSlow](https://developer.yahoo.com/yslow/) will help you examine the real
 world performance of your site and can show where you can optimize your specific

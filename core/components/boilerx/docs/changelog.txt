@@ -2,9 +2,9 @@ Changelog for boilerX integration into MODx Revolution.
 
 	boilerX 2.0.0
 	====================================
-	- updated to HTML5 Boilerplate 5.0.0
-	  - update jQuery to 1.11.3
-      - update Modernizr to 2.8.3
+	- updated to HTML5 Boilerplate 5.2.0
+	- update jQuery to 1.11.3
+	- update Modernizr to 2.8.3
 
 	boilerX 1.1.0
 	====================================

@@ -1,4 +1,4 @@
-[HTML5 Boilerplate homepage](http://html5boilerplate.com) | [Documentation
+[HTML5 Boilerplate homepage](https://html5boilerplate.com) | [Documentation
 table of contents](TOC.md)
 
 # Miscellaneous
@@ -65,29 +65,6 @@ H5BP includes a [`.htaccess`](#htaccess) file for the Apache HTTP server. If you
 Apache as your web server, then you are encouraged to download a
 [server configuration](https://github.com/h5bp/server-configs) that corresponds
 to your web server and environment.
-
-
-### Servers and Stacks
-
-A comprehensive list of web servers and stacks are beyond the scope of this
-documentation, but some common ones include:
-
-* [Apache HTTP Server](https://httpd.apache.org/docs/trunk/getting-started.html)
- * [LAMP](https://en.wikipedia.org/wiki/LAMP_%28software_bundle%29)
-(Linux, Apache, MySQL, and PHP).
-Other variants include [MAMP](https://www.mamp.info/en/index.html),
-[WAMP](http://www.wampserver.com/en/),
-or [XAMPP](https://www.apachefriends.org/index.html).
- * LAPP uses PostgreSQL instead of MySQL
-* [Nginx](http://wiki.nginx.org/GettingStarted)
- * [LEMP](http://www.chrisjohnston.org/ubuntu-tutorials/setting-up-a-lemp-stack-ubuntu-904)
-is similar to the LAMP stack but uses Nginx
-* [IIS](https://en.wikipedia.org/wiki/Internet_Information_Services)
- * [ASP.NET](http://www.asp.net/get-started)
-* [MEAN](http://mean.io/) (MongoDB, Express, AngularJS, Node.js)
-
-
-### .htaccess
 
 A `.htaccess` (hypertext access) file is a
 [Apache HTTP server configuration file](https://github.com/h5bp/server-configs-apache).
@@ -182,9 +159,9 @@ For more information about `robots.txt`, please see:
 
 ## browserconfig.xml
 
-The `browserconfig.xml` file is used to customize the tile displayed when users 
-pin your site to the Windows 8.1 start screen. In there you can define custom 
-tile colors, custom images or even [live tiles](http://msdn.microsoft.com/en-us/library/ie/dn455106.aspx#CreatingLiveTiles).
+The `browserconfig.xml` file is used to customize the tile displayed when users
+pin your site to the Windows 8.1 start screen. In there you can define custom
+tile colors, custom images or even [live tiles](https://msdn.microsoft.com/en-us/library/ie/dn455106.aspx#CreatingLiveTiles).
 
 By default, the file points to 2 placeholder tile images:
 
@@ -195,4 +172,4 @@ By default, the file points to 2 placeholder tile images:
 Notice that IE11 uses the same images when adding a site to the `favorites`.
 
 For more in-depth information about the `browserconfig.xml` file, please
-see [MSDN](http://msdn.microsoft.com/en-us/library/ie/dn320426%28v=vs.85%29.aspx).
+see [MSDN](https://msdn.microsoft.com/en-us/library/ie/dn320426.aspx).

@@ -1,4 +1,4 @@
-[HTML5 Boilerplate homepage](http://html5boilerplate.com) | [Documentation
+[HTML5 Boilerplate homepage](https://html5boilerplate.com) | [Documentation
 table of contents](TOC.md)
 
 # Extend and customise HTML5 Boilerplate
@@ -87,7 +87,7 @@ your site, for example) then you can queue up a domain name to be prefetched.
 
 ```html
 <link rel="dns-prefetch" href="//example.com">
-<link rel="dns-prefetch" href="//ajax.googleapis.com">
+<link rel="dns-prefetch" href="https://ajax.googleapis.com">
 ```
 
 You can use as many of these as you need, but it's best if they are all
@@ -107,7 +107,7 @@ Amazon S3:
 Google APIs:
 
 ```html
-<link rel="dns-prefetch" href="//ajax.googleapis.com">
+<link rel="dns-prefetch" href="https://ajax.googleapis.com">
 ```
 
 Microsoft Ajax Content Delivery Network:
@@ -230,18 +230,20 @@ $(function(){
 
 ### Prompt users to switch to "Desktop Mode" in IE10 Metro
 
-IE10 does not support plugins, such as Flash, in Metro mode. If your site
-requires plugins, you can let users know that via the X-UA-Compatible meta
-element, which will prompt them to switch to Desktop Mode.
+IE10 does not support plugins, such as Flash, in Metro mode. If
+your site requires plugins, you can let users know that via the
+`x-ua-compatible` meta element, which will prompt them to switch
+to Desktop Mode.
 
 ```html
-<meta http-equiv="X-UA-Compatible" content="requiresActiveX=true">
+<meta http-equiv="x-ua-compatible" content="requiresActiveX=true">
 ```
 
-Here's what it looks like alongside H5BP's default X-UA-Compatible values:
+Here's what it looks like alongside H5BP's default `x-ua-compatible`
+values:
 
 ```html
-<meta http-equiv="X-UA-Compatible" content="IE=edge,requiresActiveX=true">
+<meta http-equiv="x-ua-compatible" content="ie=edge,requiresActiveX=true">
 ```
 
 You can find more information in [Microsoft's IEBlog post about prompting for
@@ -253,7 +255,7 @@ Mode](http://blogs.msdn.com/b/ie/archive/2012/01/31/web-sites-and-a-plug-in-free
 Enabling your application for pinning will allow IE9 users to add it to their
 Windows Taskbar and Start Menu. This comes with a range of new tools that you
 can easily configure with the elements below. See more [documentation on IE9
-Pinned Sites](http://msdn.microsoft.com/en-us/library/gg131029.aspx).
+Pinned Sites](https://msdn.microsoft.com/en-us/library/gg131029.aspx).
 
 ### Name the Pinned Site for Windows
 
@@ -337,7 +339,7 @@ even when your app isn't actively running. The badge's value can be a number,
 or one of a predefined list of glyphs.
 
 * [Tutorial on IEBlog with link to badge XML schema](http://blogs.msdn.com/b/ie/archive/2012/04/03/pinned-sites-in-windows-8.aspx)
-* [Available badge values](http://msdn.microsoft.com/en-us/library/ie/br212849.aspx)
+* [Available badge values](https://msdn.microsoft.com/en-us/library/ie/br212849.aspx)
 
 ```html
 <meta name="msapplication-badge" value="frequency=NUMBER_IN_MINUTES;polling-uri=http://www.example.com/path/to/file.xml">
@@ -354,8 +356,7 @@ value is boolean rather than a color. It's all or nothing.
 ```
 
 You can read about this useful element and more techniques in
-[Microsoft's documentation on adapting WebKit-oriented apps for IE10](http://blogs.windows.com/windows_phone/b/wpdev/archive/2012/11/15/adapting-your-webkit-optimized-site-for-internet-explorer-10.aspx).
-
+[Microsoft's documentation on adapting WebKit-oriented apps for IE10](https://blogs.windows.com/buildingapps/2012/11/15/adapting-your-webkit-optimized-site-for-internet-explorer-10/)
 
 ## Search
 
@@ -643,3 +644,20 @@ Same applies to the touch icons:
 ```html
 <link rel="icon" sizes="192x192" href="highres-icon.png">
 ```
+
+### Theme Color
+
+You can add the [`theme-color` meta extension](https://github.com/whatwg/meta-theme-color)
+in the `<head>` of your pages to suggest the color that browsers and
+OSes should use if they customize the display of individual pages in
+their UIs with varying colors.
+
+```html
+<meta name="theme-color" content="#ff69b4">
+```
+
+The `content` attribute extension can take any valid CSS color.
+
+Currently, the `theme-color` meta extension is supported by [Chrome 39+
+for Android Lollipop](http://updates.html5rocks.com/2014/11/Support-for-theme-color-in-Chrome-39-for-Android)
+and [Firefox OS 2.1+](https://twitter.com/ahmednefzaoui/status/492344698493997057).
