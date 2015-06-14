@@ -1,7 +1,7 @@
 --------------------
 	Extra: boilerX
 	--------------------
-	Version: 1.1.0
+	Version: 2.0.0
 	Created: September 25, 2013
 	Author: JP DeVries <mail@devries.jp>
 	License: GNU GPLv2 (or later at your option)

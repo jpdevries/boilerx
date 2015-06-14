@@ -53,7 +53,7 @@ $_lang['setting_bx.x-ua-compatible'] = 'IE Edge Mode';
 $_lang['setting_bx.x-ua-compatible_desc'] = 'Sets IE Edge mode tag';
 
 $_lang['setting_bx.chrome_frame_version'] = 'IE Chrome Frame';
-$_lang['setting_bx.chrome_frame_version_desc'] = 'Version of IE to start displaying Chrome Frame';
+$_lang['setting_bx.chrome_frame_version_desc'] = 'Version of IE to show browserupgrade message.';
 
 $_lang['setting_bx.do_cdn'] = 'DO CDN';
 $_lang['setting_bx.do_cdn_desc'] = 'Whether or not to point assets to a Content Delivery Network, see bx.cdn_url';

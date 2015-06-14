@@ -19,11 +19,11 @@ $settingSource = array(
     ),
     'jquery_version' => array(
         'area' => 'assets',
-        'value' => '1.10.2'
+        'value' => '1.11.3'
     ),
     'modernizr_js_path' => array(
         'area' => 'assets',
-        'value' => '[[++assets_url]]components/boilerx/js/vendor/modernizr-2.6.2.min.js'
+        'value' => '[[++assets_url]]components/boilerx/js/vendor/modernizr-2.8.3.min.js'
     ),
     'meta_author' => array(
         'area' => 'meta',
