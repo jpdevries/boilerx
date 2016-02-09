@@ -1,8 +1,8 @@
 --------------------
 	Extra: boilerX
 	--------------------
-	Version: 2.0.0
-	Created: September 25, 2013
+	Version: 2.1.0
+	Created: February 9, 2016
 	Author: JP DeVries <mail@devries.jp>
 	License: GNU GPLv2 (or later at your option)
 
@@ -13,5 +13,5 @@
 	https://github.com/jpdevries/boilerx/wiki/Using-boilerX
 
 	Thanks for using boilerX!
-	JP DeVries	
+	JP DeVries
 	mail@devries.jp

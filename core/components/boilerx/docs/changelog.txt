@@ -1,5 +1,11 @@
 Changelog for boilerX integration into MODx Revolution.
 
+boilerX 2.1.0
+====================================
+- updated to HTML5 Boilerplate 5.3.0
+- Fetch jQuery from jQuery's CDN instead of Google's (h5bp/html5-boilerplate#1737, h5bp/html5-boilerplate#1739).
+- Change print color for :first-letter and :first-line pseudo-elements (h5bp/html5-boilerplate#1715).
+
 	boilerX 2.0.0
 	====================================
 	- updated to HTML5 Boilerplate 5.2.0
@@ -73,4 +79,3 @@ Changelog for boilerX integration into MODx Revolution.
 	 - toggle whether or not to point to CDN
 	 - auto disables analytics tracking if not set
 	 - set which version of IE to display chrome frame via system settings
-	

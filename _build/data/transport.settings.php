@@ -5,7 +5,7 @@ $settingSource = array(
         'area' => 'analytics',
         'value' => 'UAXXXXXXXX1',
     ),
-    /*'cdn_url' => array( // depreciated in 1.0.0 
+    /*'cdn_url' => array( // depreciated in 1.0.0
         'area' => 'assets',
         'value' => 'http://s3.amazonaws.com/mycdn/',
     ),*/
@@ -19,7 +19,7 @@ $settingSource = array(
     ),
     'jquery_version' => array(
         'area' => 'assets',
-        'value' => '1.11.3'
+        'value' => '1.12.0'
     ),
     'modernizr_js_path' => array(
         'area' => 'assets',
@@ -45,7 +45,7 @@ $settingSource = array(
         'area' => 'options',
         'value' => '7'
     ),
-    /*'do_cdn' => array( // depreciated in 1.0.0 
+    /*'do_cdn' => array( // depreciated in 1.0.0
         'area' => 'options',
         'value' => false,
     ),*/

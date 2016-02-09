@@ -11,9 +11,9 @@ set_time_limit(0);
 
 /* define package names */
 define('PKG_NAME','boilerx');
-define('PKG_NAME_LOWER','boilerx'); 
-define('PKG_NAME_STUPID','boilerx2'); 
-define('PKG_VERSION','2.0.0');
+define('PKG_NAME_LOWER','boilerx');
+define('PKG_NAME_STUPID','boilerx2');
+define('PKG_VERSION','2.1.0');
 define('PKG_RELEASE','pl');
 
 /* define build paths */
@@ -66,7 +66,7 @@ if (empty($templates)) $modx->log(modX::LOG_LEVEL_ERROR,'Could not package in te
 $category->addMany($templates);
 unset($templates);
 
-/* add snippets 
+/* add snippets
 $modx->log(modX::LOG_LEVEL_INFO,'Packaging in snippets...');
 $snippets = include $sources['data'].'transport.snippets.php';
 if (empty($snippets)) $modx->log(modX::LOG_LEVEL_ERROR,'Could not package in snippets.');
@@ -115,9 +115,9 @@ if (is_array($settings) && !empty($settings)) {
 } else {
     $modx->log(xPDO::LOG_LEVEL_ERROR,'Could not package System Settings.');
 }
-unset($settings,$setting); 
+unset($settings,$setting);
 
-/* load menu 
+/* load menu
 $modx->log(modX::LOG_LEVEL_INFO,'Packaging in menu...');
 $menu = include $sources['data'].'transport.menu.php';
 if (empty($menu)) $modx->log(modX::LOG_LEVEL_ERROR,'Could not package in menu.');
